@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura Challenge</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>  
+
+    <header>
+        <img src="img/logo.svg" alt="Logo da Alura">
+    </header> 
+
+    <div class="container">
+        <div class="encrypt-box">
+
+           <textarea name="text" id="input" cols="33" rows="10" placeholder=" Digite aqui..."></textarea>
+
+           <p>&#x26A0; Somente letras minúsculas e sem acento.</p>
+        </div>
+
+        <button class="buttom1" onclick="encrypt()">Criptografar</button>
+        <button class="buttom2" onclick="dencrypt()">Descriptografar</button>
+
+
+        <section class="right">
+
+            <textarea id="output" cols="33" rows="10" >  Sua mensagem aparecerá aqui!</textarea>
+
+        </section>
+
+    </div>
+        
+    <script src="/assets/script.js"></script>
+        
+        
+</body>
+</html>
